@@ -1,0 +1,17 @@
+# ── Telegram ──────────────────────────────────────────────
+TELEGRAM_BOT_TOKEN=your_bot_token_from_botfather
+TELEGRAM_CHAT_ID=-1001234567890        # negative number for groups
+
+# ── Gmail / Google Workspace ──────────────────────────────
+GMAIL_USER=info@xpresstransportation.com
+
+# ── Google Cloud ──────────────────────────────────────────
+GOOGLE_CLOUD_PROJECT=your-gcp-project-id
+PUBSUB_TOPIC=projects/your-gcp-project-id/topics/gmail-push
+
+# Paste the ENTIRE content of service_account.json here as one line
+SERVICE_ACCOUNT_JSON={"type":"service_account","project_id":"...","private_key_id":"..."}
+
+# ── Server ────────────────────────────────────────────────
+WEBHOOK_URL=https://yourapp.onrender.com/pubsub/push
+PORT=8080
