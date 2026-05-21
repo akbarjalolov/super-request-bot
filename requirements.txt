@@ -4,3 +4,5 @@ google-auth==2.29.0
 google-auth-httplib2==0.2.0
 google-api-python-client==2.126.0
 google-cloud-pubsub==2.21.1
+protobuf==4.25.3
+grpcio==1.62.2
