@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: super-request-bot
+    runtime: python
+    pythonVersion: "3.11.4"
+    buildCommand: pip install --upgrade pip && pip install -r requirements.txt
+    startCommand: python main.py
+    envVars:
+      - key: PORT
+        value: 8080
